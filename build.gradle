@@ -1,0 +1,13 @@
+apply plugin: 'java-library'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+	compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'   
+	
+	// https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
+	compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '4.3.1'
+}
